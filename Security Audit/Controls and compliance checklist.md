@@ -8,20 +8,20 @@ Then, select “yes” or “no” to answer the question: *Does Botium Toys cur
 
 |   Yes |     No | Control |
 | :---- | :---- | :---- |
-|  |  | Least Privilege |
-|  |  | Disaster recovery plans |
-|  |  | Password policies |
-|  |  | Separation of duties |
-|  |  | Firewall |
-|  |  | Intrusion detection system (IDS) |
-|  |  | Backups |
-|  |  | Antivirus software |
-|  |  | Manual monitoring, maintenance, and intervention for legacy systems |
-|  |  | Encryption |
-|  |  | Password management system |
-|  |  | Locks (offices, storefront, warehouse) |
-|  |  | Closed-circuit television (CCTV) surveillance |
-|  |  | Fire detection/prevention (fire alarm, sprinkler system, etc.) |
+|   | n | Least Privilege |
+|   | n | Disaster recovery plans |
+| y |   | Password policies |
+|   | n | Separation of duties |
+| y |   | Firewall |
+|   | n | Intrusion detection system (IDS) |
+|   | n | Backups |
+| y |   | Antivirus software |
+| y |   | Manual monitoring, maintenance, and intervention for legacy systems |
+|   | n | Encryption |
+|   | n | Password management system |
+| y |   | Locks (offices, storefront, warehouse) |
+| y |   | Closed-circuit television (CCTV) surveillance |
+|   | n | Fire detection/prevention (fire alarm, sprinkler system, etc.) |
 
 ---
 
@@ -35,28 +35,28 @@ Payment Card Industry Data Security Standard (PCI DSS)
 
 | Yes |     No | Best practice |
 | :---- | :---- | :---- |
-|  |  | Only authorized users have access to customers’ credit card information.  |
-|  |  | Credit card information is stored, accepted, processed, and transmitted internally, in a secure environment. |
-|  |  | Implement data encryption procedures to better secure credit card transaction touchpoints and data.  |
-|  |  | Adopt secure password management policies. |
+|  | n | Only authorized users have access to customers’ credit card information.  |
+|  | n | Credit card information is stored, accepted, processed, and transmitted internally, in a secure environment. |
+|  | n | Implement data encryption procedures to better secure credit card transaction touchpoints and data.  |
+|  | n | Adopt secure password management policies. |
 
 General Data Protection Regulation (GDPR)
 
 | Yes |     No | Best practice |
 | :---- | :---- | :---- |
-|  |  | E.U. customers’ data is kept private/secured. |
-|  |  | There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach. |
-|  |  | Ensure data is properly classified and inventoried. |
-|  |  | Enforce privacy policies, procedures, and processes to properly document and maintain data. |
+|   | n | E.U. customers’ data is kept private/secured. |
+| y |   | There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach. |
+|   | n | Ensure data is properly classified and inventoried. |
+|   | n | Enforce privacy policies, procedures, and processes to properly document and maintain data. |
 
 System and Organizations Controls (SOC type 1, SOC type 2\) 
 
 | Yes |     No | Best practice |
 | :---- | :---- | :---- |
-|  |  | User access policies are established. |
-|  |  | Sensitive data (PII/SPII) is confidential/private. |
-|  |  | Data integrity ensures the data is consistent, complete, accurate, and has been validated. |
-|  |  | Data is available to individuals authorized to access it. |
+|   | n | User access policies are established. |
+|   | n | Sensitive data (PII/SPII) is confidential/private. |
+|   | n | Data integrity ensures the data is consistent, complete, accurate, and has been validated. |
+| y |   | Data is available to individuals authorized to access it. |
 
 ---
 
@@ -97,4 +97,3 @@ Deploying an Intrusion Detection System(IDS). Deploying and IDS will provide sec
 All in all, the company’s security risk score is 8 out of 10\. This indicates that the company has a significant amount of exposure to risks, threats and vulnerabilities. The recommendations above are recommended in order to assist the company in reaching its security goals of being in compliance with various legal requirements and standards.
 
 Botium Toys should perform regular, rhythmic maintenance and system analysis of legacy systems to minimise the possibility of risks and threats. To also cover the physical aspect of security, it is highly recommended to implement a Fire detection/prevention plan such as having smoke and fire alarms, sprinkler systems in strategic places that are likely to be fire hazards and most importantly a fire evacuation plan to ensure the safety of everyone.
-
